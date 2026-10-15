@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-rate-limit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Limita requisições por IP, usuário ou chave com janela deslizante ou balde de fichas, armazém plugável (memória, Redis, KV) e headers RateLimit-*. Login e API protegidos contra abuso e robô.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
